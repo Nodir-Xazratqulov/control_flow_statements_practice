@@ -9,7 +9,14 @@ def find_max(a,b,c):
     return:
         int
     """
-    return 0
+#     if a>b and a>c:
+#         return a
+#     if b>a and b>c :
+#         return b
+#     if c>a and c>b :
+#         return c
+    
+# print(find_max(10,8,7))
 
 # Example:
 # find_max(1,2,3) -> 3
@@ -25,7 +32,14 @@ def find_max_idx(a,b,c):
     return:
         int
     """
-    return 0
+#     if a<b and a<c:
+#         return a
+#     if b<a and b<c :
+#         return b
+#     if c<a and c<b :
+#         return c
+   
+# print(find_max_idx(4,8,5))
 
 # Example:
 # find_max_idx(10,2,13) -> 3
